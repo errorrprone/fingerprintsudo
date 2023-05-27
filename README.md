@@ -1,4 +1,3 @@
-# To enable using fingerprint biometrics for sudo authentication in the Terminal on macOS, you can create a bash script that leverages the pam_tid.so module. Here's an example of how you can do it:
 
 Open a text editor and create a new file. Let's name it sudo-fingerprint.sh.
 
