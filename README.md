@@ -1,5 +1,5 @@
 
-Open a text editor and create a new file. Let's name it sudo-fingerprint.sh.
+Open a text editor and create a new file and name it sudo-fingerprint.sh.
 
 Add the following lines to the file:
 
@@ -39,6 +39,7 @@ sudo ./sudo-fingerprint.sh
 
 Enter your password when prompted.
 
-The script will back up the original sudo configuration file and then modify it to enable fingerprint biometrics for sudo authentication. After running the script, you should be able to use your fingerprint to authenticate sudo commands in the Terminal on macOS.
+The script should back up the original sudo configuration file and then modify it to enable fingerprint biometrics for sudo. After running the script, you should be able to use your fingerprint to use sudo commands in the terminal on macOS.
 
-Please note that modifying system configuration files should be done with caution. Make sure you understand the changes being made and have a backup of important files before proceeding.
+#Disclaimer
+Modifying system configuration files should be done with caution although we all know it's more fun to just go for it. Make sure you understand the changes being made and have a backup of important files before using this script. Be safe and have fun!
